@@ -6,14 +6,10 @@ export const AboutContainer =styled.div`
     background: #1F2328;
     display: flex;
     justify-content: center;
-    // align-items: center;
-    padding: 0 30px;
-    // height: 800px;
-    // position: relative;
-    // z-index: 1;
+    padding: 100px 15px;
 
-    @media screen and (max-width:760px) {
-        padding: 100px 0;
+    @media screen and (max-width:480px) {
+        padding: 100px 15px;
     }
 
 `;
@@ -22,12 +18,8 @@ export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 860px;
-    // width: 100%;
     max-width: 1100px;
-    // margin-right: auto;
-    // margin-left: auto;
     margin: 10px;
-    // padding: 0 24px;
     justify-content: center;
 `;
 
@@ -49,13 +41,11 @@ export const AboutRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -63,7 +53,6 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -76,6 +65,10 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
     transition: all 0.5s ease-in-out;
 
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+
     &:hover{
         transform: scale(1.1);
         transition: all 0.5s ease-in-out;
@@ -85,14 +78,14 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 44px;
-    font-size: 48px;
+    font-size: 68px;
     line-height: 1.1;
     font-weight: 600;
     color: #ff0050;
     transition: all 0.5s ease-in-out;
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
+        font-size: 50px;
     }
 
     &:hover{
@@ -110,6 +103,10 @@ export const Subtitle = styled.p`
     color: #fff;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     transition: all 0.5s ease-in-out;
+
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
 
     &:hover{
         transform: scale(1.1);

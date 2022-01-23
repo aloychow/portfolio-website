@@ -8,13 +8,11 @@ export const HomeContainer =styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    // height: 800px;
     position: relative;
     z-index: 1;
-    // margin-top: -10px;
 
-    @media screen and (max-width:760px) {
-        // padding: 100px 0;
+    @media screen and (max-width:480px) {
+        padding: 0 10px;
     }
 
 `;
@@ -28,12 +26,11 @@ export const HomeWrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
-    // justify-content: center;
+
 `;
 
 export const HomeRow = styled.div`
     display: grid;
-    // grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
 
     grid-template-areas: ${({imgStart}) => (imgStart 
@@ -49,7 +46,6 @@ export const HomeRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
@@ -63,7 +59,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    // padding-bottom: 60px;
+
 `;
 
 export const TopLine = styled.p`
@@ -92,7 +88,11 @@ export const Heading = styled.h1`
     transition: all 0.5s ease-in-out;
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 50px;
     }
 
     &:hover{
@@ -139,7 +139,6 @@ export const ImgWrap = styled.div`
 `; 
 
 export const Img = styled.img`
-    // width: 200px;
     min-width: 200px;
     margin: 0 0 10px 0;
     padding-right: 0;
