@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tiktok-portfolio-website/static/css/main.411edfc2.css",
-    "main.js": "/tiktok-portfolio-website/static/js/main.4fa10d35.js",
-    "static/media/classifish-icon.png": "/tiktok-portfolio-website/static/media/classifish-icon.328fc74a9e84e1c156d1.png",
-    "static/media/Sofia-Pro-Bold.ttf": "/tiktok-portfolio-website/static/media/Sofia-Pro-Bold.72c1413b68e7bafe9528.ttf",
-    "static/media/myself.mp4": "/tiktok-portfolio-website/static/media/myself.ae08bb6bf50f0fd93cb9.mp4",
-    "static/media/website-logo.png": "/tiktok-portfolio-website/static/media/website-logo.fffed1b0d81bf6a008a2.png",
-    "static/media/prime-icon.png": "/tiktok-portfolio-website/static/media/prime-icon.426b74aa2296b7feaf07.png",
-    "static/media/website-icon.png": "/tiktok-portfolio-website/static/media/website-icon.f9558c1aa5813acf2942.png",
-    "index.html": "/tiktok-portfolio-website/index.html",
-    "main.411edfc2.css.map": "/tiktok-portfolio-website/static/css/main.411edfc2.css.map",
-    "main.4fa10d35.js.map": "/tiktok-portfolio-website/static/js/main.4fa10d35.js.map"
+    "main.css": "/portfolio/static/css/main.9ffe64fb.css",
+    "main.js": "/portfolio/static/js/main.34b6b9f7.js",
+    "static/media/classifish-icon.png": "/portfolio/static/media/classifish-icon.328fc74a9e84e1c156d1.png",
+    "static/media/Sofia-Pro-Bold.ttf": "/portfolio/static/media/Sofia-Pro-Bold.72c1413b68e7bafe9528.ttf",
+    "static/media/myself.mp4": "/portfolio/static/media/myself.ae08bb6bf50f0fd93cb9.mp4",
+    "static/media/website-logo.png": "/portfolio/static/media/website-logo.fffed1b0d81bf6a008a2.png",
+    "static/media/prime-icon.png": "/portfolio/static/media/prime-icon.426b74aa2296b7feaf07.png",
+    "static/media/website-icon.png": "/portfolio/static/media/website-icon.f9558c1aa5813acf2942.png",
+    "index.html": "/portfolio/index.html",
+    "main.9ffe64fb.css.map": "/portfolio/static/css/main.9ffe64fb.css.map",
+    "main.34b6b9f7.js.map": "/portfolio/static/js/main.34b6b9f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.411edfc2.css",
-    "static/js/main.4fa10d35.js"
+    "static/css/main.9ffe64fb.css",
+    "static/js/main.34b6b9f7.js"
   ]
 }
