@@ -1,0 +1,21 @@
+* {
+  box-sizing:  border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #000; */
+  /* font-family: 'Gill Sans',
+  sans-serif; */
+  font-family: 'Sofia';
+  src: local('Sofia-Pro'), url(./Fonts/Sofia-Pro/Sofia-Pro-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Sofia';
+  src: local('Sofia-Pro'), url(./Fonts/Sofia-Pro/Sofia-Pro-Bold.ttf) format('truetype');
+}
+
+/* 
+For importing fonts:
+https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
+Use method 3. Downloading the font and adding it in your source code. 
+*/
