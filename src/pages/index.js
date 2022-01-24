@@ -8,6 +8,7 @@ import CustomCursor from 'custom-cursor-react';
 import 'custom-cursor-react/dist/index.css';
 
 import './style.scss';
+import './index.css';
 
 import HomeSection from '../components/HomeSection';
 import { homeObj } from '../components/HomeSection/Data';

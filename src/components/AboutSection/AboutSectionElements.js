@@ -17,10 +17,17 @@ export const AboutContainer =styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: auto;
     max-width: 1100px;
     margin: 10px;
     justify-content: center;
+
+`;
+
+export const AboutHeader = styled.div`
+    display: grid;
+    justify-content: left;
+    // display-flex: column;
 `;
 
 export const AboutRow = styled.div`
@@ -32,7 +39,7 @@ export const AboutRow = styled.div`
         ? `'col2 col'` 
         : `'col1 col2'`)};
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         grid-template-areas: ${({imgStart}) => (imgStart
             ? `'col1' 'col2'`
             : `'col1 col1' 'col2 col2'`
