@@ -21,9 +21,10 @@ import {
     Subtitle, 
     BtnWrap,
     ImgWrap,
-    Img
+    AboutBg,
+    ImageBg
 } from './AboutSectionElements'
-
+import Image from '../../images/about-background.jpg';
 
 const AboutSection = ({
     id, 
@@ -37,6 +38,11 @@ const AboutSection = ({
     return (
         <>
             <AboutContainer id={id}>
+
+                <AboutBg>
+                    <ImageBg src={Image} />
+                </AboutBg>
+
                 <AboutWrapper>
                     <AboutHeader>
                         <TopLine>{topLine}</TopLine>

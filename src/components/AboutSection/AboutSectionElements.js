@@ -3,10 +3,13 @@ import styled from 'styled-components';
 
 export const AboutContainer =styled.div`
     color: #f9f9f9;
-    background: #1F2328;
+    background: transparent;
     display: flex;
     justify-content: center;
     padding: 100px 15px;
+    z-index: 1;
+    position: relative;
+    z-index: 1;
 
     @media screen and (max-width:480px) {
         padding: 100px 15px;
@@ -147,14 +150,6 @@ export const ImgWrap = styled.div`
     } 
 `;
 
-export const Img = styled.img`
-    width: 100%;
-    margin: 0 0 10px 0;
-    padding-right: 0;
-`;
-
-/* Add :before styles */
-
 export const AboutBg = styled.div`
     position: absolute;
     top: 0;
@@ -166,10 +161,10 @@ export const AboutBg = styled.div`
     overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const ImageBg = styled.img`
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-    object-fit : cover;
-    background: #232a34;
+    object-fit: cover;
+    background: #1F2328;
 `;
