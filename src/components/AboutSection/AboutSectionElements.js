@@ -31,6 +31,13 @@ export const AboutHeader = styled.div`
     // display-flex: column;
 `;
 
+export const AboutResumeButton = styled.div`
+    display: grid;
+    justify-content: center;
+    padding: 0 15px;
+    // display-flex: column;
+`;
+
 export const AboutRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);

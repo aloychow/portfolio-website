@@ -6,11 +6,13 @@ import { Fade, Rotate } from 'react-reveal';
 import SkillBar from 'react-skillbars';
 import { Skills } from './skills';
 
+import './index.sass'; 
 import { 
     AboutContainer, 
     AboutWrapper, 
     AboutRow, 
     AboutHeader,
+    AboutResumeButton,
     Column1, 
     Column2, 
     TextWrapper, 
@@ -36,14 +38,10 @@ const AboutSection = ({
         <>
             <AboutContainer id={id}>
                 <AboutWrapper>
-
-                    <div>
-                        <AboutHeader>
-                            <TopLine>{topLine}</TopLine>
-                            <Heading>{headline}</Heading>
-                        </AboutHeader>
-                    </div>
-                    <div>
+                    <AboutHeader>
+                        <TopLine>{topLine}</TopLine>
+                        <Heading>{headline}</Heading>
+                    </AboutHeader>
 
                     <AboutRow imgStart={imgStart}>                        
                         <Column1>
@@ -73,7 +71,16 @@ const AboutSection = ({
                         </Column2>
                     </AboutRow>
 
-                    </div>
+                    <AboutResumeButton>
+                        <button class="shrink-border link" 
+                                type="button"
+                                onClick={(e) => {
+                                e.preventDefault();
+                                window.open("https://drive.google.com/drive/folders/1jlnkcyQxM4SLjmPXOYUCylh3rpLsfTwV", "_blank");
+                                }}>View My Resume</button>
+                    </AboutResumeButton>
+
+
                 </AboutWrapper>
             </AboutContainer>
             
