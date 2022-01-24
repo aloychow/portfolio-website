@@ -64,7 +64,7 @@ const AboutSection = ({
                         <Column2>
                             <Fade>
                                 <ImgWrap>
-                                    <SkillBar skills={Skills} height={'4vh'}/>
+                                    <SkillBar skills={Skills} height={'5vh'}/>
                                     {/* <Img src={img} alt={alt}/> */}
                                 </ImgWrap>
                             </Fade>

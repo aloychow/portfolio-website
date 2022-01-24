@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-
 export const HomeContainer =styled.div`
     color: #fff;
-    background: #000;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,17 +157,25 @@ export const HomeBg = styled.div`
     overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
-    width: 80%;
-    height: 80%;
+export const ImageMyself = styled.img`
+    width: 95%;
+    height: 95%;
     min-width: 300px;
     -o-object-fit: cover;
     object-fit : cover;
-    background: #000;
+    // background: #000;
 
     @media screen and (max-width:768px) {
         align: top;
         align: center;
         min-width: 200px;
     }
+`;
+
+export const ImageBg = styled.img`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
 `;
