@@ -27,6 +27,7 @@ export const AboutWrapper = styled.div`
 export const AboutHeader = styled.div`
     display: grid;
     justify-content: left;
+    padding: 0 15px;
     // display-flex: column;
 `;
 
