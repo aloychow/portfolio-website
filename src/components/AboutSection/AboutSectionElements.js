@@ -9,7 +9,6 @@ export const AboutContainer =styled.div`
     padding: 100px 15px;
     z-index: 1;
     position: relative;
-    z-index: 1;
 
     @media screen and (max-width:480px) {
         padding: 100px 15px;
@@ -87,11 +86,11 @@ export const TopLine = styled.p`
         font-size: 20px;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 `;
 
 export const Heading = styled.h1`
@@ -106,11 +105,11 @@ export const Heading = styled.h1`
         font-size: 50px;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 `;
 
 export const Subtitle = styled.p`
@@ -126,11 +125,11 @@ export const Subtitle = styled.p`
         font-size: 20px;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 `;
 
 export const BtnWrap = styled.div`
@@ -143,11 +142,11 @@ export const ImgWrap = styled.div`
     height: 100%;
     transition: all 0.5s ease-in-out;
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 `;
 
 export const AboutBg = styled.div`
@@ -166,5 +165,5 @@ export const ImageBg = styled.img`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #1F2328;
+    // background: #010606;
 `;

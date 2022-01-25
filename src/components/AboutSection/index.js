@@ -24,7 +24,7 @@ import {
     AboutBg,
     ImageBg
 } from './AboutSectionElements'
-import Image from '../../images/about-background.jpg';
+import Image from '../../images/about-background.png';
 
 const AboutSection = ({
     id, 

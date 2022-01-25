@@ -71,11 +71,11 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
     transition: all 0.5s ease-in-out;
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    }
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // }
 `;
 
 export const Heading = styled.h1`
@@ -94,11 +94,11 @@ export const Heading = styled.h1`
         font-size: 50px;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    }
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // }
 `;
 
 export const Subtitle = styled.p`
@@ -109,11 +109,11 @@ export const Subtitle = styled.p`
     color: #FFF;
     transition: all 0.5s ease-in-out;
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    }
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // }
 `;
 
 export const BtnWrap = styled.div`
@@ -130,11 +130,11 @@ export const ImgWrap = styled.div`
         height: 1%;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 `; 
 
 export const Img = styled.img`

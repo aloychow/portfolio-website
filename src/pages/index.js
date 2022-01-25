@@ -12,10 +12,8 @@ import './index.css';
 
 import HomeSection from '../components/HomeSection';
 import { homeObj } from '../components/HomeSection/Data';
-
 import AboutSection from '../components/AboutSection';
 import { aboutObj } from '../components/AboutSection/Data';
-
 import ProjectsSection from '../components/ProjectsSection';
 
 const Home = () => {
@@ -56,6 +54,7 @@ const Home = () => {
             <AboutSection { ...aboutObj }/>
 
             <ProjectsSection />
+
         </>
     );
 }

@@ -5,10 +5,13 @@ export const ProjectsContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: transparent;
     padding: 2rem;
+    height: auto;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1;
 
     @media screen and (max-width: 400px) {
         padding: 30px;
@@ -20,21 +23,41 @@ export const ProjectsContainer = styled.div`
 
 `;
 
+export const ProjectsBg = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+`;
+
+export const ImageBg = styled.img`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+`;
+
 export const ProjectsWrapper = styled.div`
     max-width: 1000px;
     width: 100%;
     display: grid;
+    z-index: 1;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 10px 50px;
     box-sizing: border-box;
+    overflow: auto;
 
     @media screen and (max-width: 1024px) {
         grid-template-columns: 1fr 1fr;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
@@ -53,25 +76,26 @@ export const ProjectsCard = styled.div`
     align-items: center;
     border-radius: 10px;
     box-sizing: border-box;
-    height: auto;
+    // height: auto;
+    height: 680px;
     padding: 30px;
     margin: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.5s ease-in-out;
 
-    @media screen and (max-width: 1024px) {
-        height: 640px;
+    @media screen and (max-width: 1050px) {
+        height: 730px;
     }
 
-    @media screen and (max-width: 915px) {
-        height: 670px;
+    @media screen and (max-width: 1025px) {
+        height: 800px;
+    }
+
+    @media screen and (max-width: 870px) {
+        height: 850px;
     }
 
     @media screen and (max-width: 850px) {
-        height: 700px;
-    }
-
-    @media screen and (max-width: 768px) {
         height: auto;
         margin: 0;
         margin-bottom: 20px;
@@ -124,11 +148,11 @@ export const ProjectsH1 = styled.h1`
         font-size: 50px;
     }
 
-    &:hover{
-        transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
-        cursor : none;
-    } 
+    // &:hover{
+    //     transform: scale(1.1);
+    //     transition: all 0.5s ease-in-out;
+    //     cursor : none;
+    // } 
 
 `;
     

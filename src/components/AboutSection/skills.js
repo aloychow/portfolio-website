@@ -1,7 +1,7 @@
 export const Skills = [
     {
         "type": "ML/AI",
-        "level": 100,
+        "level": 90,
         "color": {
             "bar": "#25F4EE",
             "title": {
@@ -31,7 +31,7 @@ export const Skills = [
       },
       {
         "type": "Frontend",
-        "level": 60,
+        "level": 65,
         "color": {
             "bar": "#F1AFDD",
             "title": {
@@ -41,7 +41,7 @@ export const Skills = [
       },
       {
         "type": "SQL",
-        "level": 50,
+        "level": 60,
         "color": {
             "bar": "#95d5b2",
             "title": {
