@@ -71,34 +71,34 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
     transition: all 0.5s ease-in-out;
 
-    // &:hover{
-    //     transform: scale(1.1);
-    //     transition: all 0.5s ease-in-out;
-    //     cursor : none;
-    // }
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
 `;
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 1.1;
     font-weight: 600;
     color: #00f2ea;
     transition: all 0.5s ease-in-out;
 
+    @media screen and (max-width: 768px) {
+        font-size: 85px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 65px;
+    }
+
     @media screen and (max-width: 480px) {
-        font-size: 60px;
+        font-size: 55px;
     }
-
-    @media screen and (max-width: 400px) {
-        font-size: 50px;
-    }
-
-    // &:hover{
-    //     transform: scale(1.1);
-    //     transition: all 0.5s ease-in-out;
-    //     cursor : none;
-    // }
 `;
 
 export const Subtitle = styled.p`

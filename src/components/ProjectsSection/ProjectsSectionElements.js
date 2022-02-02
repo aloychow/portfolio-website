@@ -139,20 +139,22 @@ export const ProjectsIcon = styled.img`
 `;
 
 export const ProjectsH1 = styled.h1`
-    font-size: 68px;
+    font-size: 80px;
     color: #00f2ea;
     margin-bottom: 64px;
     transition: all 0.5s ease-in-out;
 
-    @media screen and (max-width: 480px) {
-        font-size: 50px;
+    @media screen and (max-width: 768px) {
+        font-size: 70px;
     }
 
-    // &:hover{
-    //     transform: scale(1.1);
-    //     transition: all 0.5s ease-in-out;
-    //     cursor : none;
-    // } 
+    @media screen and (max-width: 600px) {
+        font-size: 65px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 55px;
+    }
 
 `;
     

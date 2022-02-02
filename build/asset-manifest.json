@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tiktok-portfolio-website/static/css/main.52177a69.css",
-    "main.js": "/tiktok-portfolio-website/static/js/main.ffe48b6e.js",
+    "main.js": "/tiktok-portfolio-website/static/js/main.0bfa22f5.js",
     "static/media/classifish-icon.png": "/tiktok-portfolio-website/static/media/classifish-icon.328fc74a9e84e1c156d1.png",
     "static/media/projects-background.png": "/tiktok-portfolio-website/static/media/projects-background.7c8499535f17a18ddc05.png",
     "static/media/Sofia-Pro-Bold.ttf": "/tiktok-portfolio-website/static/media/Sofia-Pro-Bold.72c1413b68e7bafe9528.ttf",
@@ -16,10 +16,10 @@
     "static/media/programmer.png": "/tiktok-portfolio-website/static/media/programmer.a50519ec7f4ef6e48a0f.png",
     "index.html": "/tiktok-portfolio-website/index.html",
     "main.52177a69.css.map": "/tiktok-portfolio-website/static/css/main.52177a69.css.map",
-    "main.ffe48b6e.js.map": "/tiktok-portfolio-website/static/js/main.ffe48b6e.js.map"
+    "main.0bfa22f5.js.map": "/tiktok-portfolio-website/static/js/main.0bfa22f5.js.map"
   },
   "entrypoints": [
     "static/css/main.52177a69.css",
-    "static/js/main.ffe48b6e.js"
+    "static/js/main.0bfa22f5.js"
   ]
 }

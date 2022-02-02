@@ -82,6 +82,10 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
     transition: all 0.5s ease-in-out;
 
+    @media screen and (max-width: 768px) {
+        font-size: 25px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 20px;
     }
@@ -95,41 +99,49 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 44px;
-    font-size: 68px;
+    font-size: 80px;
     line-height: 1.1;
     font-weight: 600;
     color: #ff0050;
     transition: all 0.5s ease-in-out;
 
-    @media screen and (max-width: 480px) {
-        font-size: 50px;
+    @media screen and (max-width: 768px) {
+        font-size: 70px;
     }
 
-    // &:hover{
-    //     transform: scale(1.1);
-    //     transition: all 0.5s ease-in-out;
-    //     cursor : none;
-    // } 
+    @media screen and (max-width: 600px) {
+        font-size: 65px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 55px;
+    }
 `;
 
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 25px;
     font-size: 25px;
-    line-height: 24px;
+    // line-height: 24px;
     color: #fff;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     transition: all 0.5s ease-in-out;
 
+    @media screen and (max-width: 1024px) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 23px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 22px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 20px;
     }
-
-    // &:hover{
-    //     transform: scale(1.1);
-    //     transition: all 0.5s ease-in-out;
-    //     cursor : none;
-    // } 
 `;
 
 export const BtnWrap = styled.div`
@@ -192,7 +204,7 @@ export const JourneyContainer = styled.div`
     display: block;
     // justify-content: center;
     padding: 100px 15px;
-    z-index: 1;
+    // z-index: 1;
     position: relative;
 
     @media screen and (max-width:480px) {
@@ -205,7 +217,7 @@ export const JourneySection = styled.div`
     background: transparent;
     justify-content: center;
     padding: 100px 15px;
-    z-index: 1;
+    // z-index: 1;
     position: relative;
     display: ${props => props.visibility? 'block': 'none'};
     
@@ -223,20 +235,29 @@ export const JourneyType = styled.button`
     background: transparent;
     border: 0px;
     transition: all 0.5s ease-in-out;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 30px;
 
     &:hover {
         transition: all 0.2 ease-in-out;
         // background: #ffffff;
         color: #F5112F;
         transform: scale(1.1);
+        border-bottom: 5px solid #F5112F;
     }
 
-    @media screen and (max-width: 780px) {
+    @media screen and (max-width: 1024px) {
+        font-size: 37px;
+        margin: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    @media screen and (max-width: 480px) {
         font-size: 20px;
-        margin: 25px;
-    }
-
-    @media screen and (max-width: 550px) {
         margin: 10px;
     }
 `;
@@ -249,12 +270,14 @@ export const JourneyToggle = styled.div`
 export const JourneyContent = styled.div`
     margin: 10px;
     margin-top: -10px;
+    margin-left: 0px;
 `;
 
 export const JourneyContentRight = styled.div`
     text-align: right;
-    margin: 10px;
+    // margin: 10px;
     margin-top: -10px;
+    margin-right: 0px;
 `;
 
 
@@ -288,6 +311,8 @@ export const QualificationRound = styled.div`
     height: 13px;
     background-color: #fff;
     border-radius: 50%;
+    z-index: 2;
+    position: relative;
 `;
 
 export const QualificationLine = styled.div`
@@ -297,20 +322,74 @@ export const QualificationLine = styled.div`
     height: 100%;
     background-color: #fff;
     transform: translate(6px, -7px);
+    z-index: 1;
+    position: relative;
 `;
 
 export const JourneyTitle = styled.div`
-    font-size: 30px;
-    color: #ff0050;
+    font-size: 40px;
+    // color: #fff;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 530px) {
+        font-size: 23px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
 `;
 
 export const JourneyCompany = styled.div`
-    font-size: 28px;
-    color: #00f2ea;
+    font-size: 30px;
+    color: #fff;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 17px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 15px;
+    }
 `;
 
 export const JourneyDate = styled.div`
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     margin-top: 10px;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 17px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 13px;
+    }
 `;

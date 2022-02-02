@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-scroll';
+// import { Button } from 'react-scroll';
 import { useState } from 'react';
 
 import { Fade, Rotate } from 'react-reveal';
@@ -54,6 +54,7 @@ const AboutSection = ({
     img, 
     alt}) => {
 
+    // Set State Toggle for Work Experience and Education
     const [toggleExperience, setToggleExperience] = useState(true)
     const [toggleEducation, setToggleEducation] = useState(false)
 
@@ -65,6 +66,41 @@ const AboutSection = ({
         setToggleExperience(false);
         setToggleEducation(true);
     }
+
+    // Set Colours for Timeline
+    const blue = {
+        color: '#00fff9',
+    };
+
+    const blueBg = {
+        backgroundColor: '#00fff9',
+    };
+
+    const pink = {
+        color: '#ff1791',
+    };
+
+    const pinkBg = {
+        backgroundColor: '#ff1791',
+    };
+
+    const green = {
+        color: '#17ffc4',
+    };
+
+    const greenBg = {
+        backgroundColor: '#17ffc4',
+    };
+
+    const orange = {
+        color: '#ffbc0a',
+    };
+
+    const orangeBg = {
+        backgroundColor: '#ffbc0a',
+    };
+    
+    
     
     return (
         <>
@@ -109,16 +145,16 @@ const AboutSection = ({
                     </AboutRow>
 
     
-                    <JourneyHeader>My Journey</JourneyHeader>
+                    {/* <JourneyHeader>My Journey</JourneyHeader> */}
 
                     <JourneyContainer>
                             <JourneyToggle>
                                 <JourneyType className='link' onClick={handleToggleExperience}>
-                                    <JourneyImage src={ImageWork}/>
-                                    Work Experience
+                                    {/* <JourneyImage src={ImageWork}/> */}
+                                    Experience
                                 </JourneyType>
                                 <JourneyType className='link' onClick={handleToggleEducation}>
-                                    <JourneyImage src={ImageStudy}/>
+                                    {/* <JourneyImage src={ImageStudy}/> */}
                                     Education
                                 </JourneyType>
                             </JourneyToggle>
@@ -132,7 +168,7 @@ const AboutSection = ({
                             <QualificationData>
                                 <div>
                                     <JourneyContentRight>
-                                        <JourneyTitle>Software Engineer</JourneyTitle>
+                                        <JourneyTitle style={blue}>Software Engineer</JourneyTitle>
                                         <JourneyCompany>TikTok</JourneyCompany>
                                         <JourneyDate>
                                             <i></i>
@@ -142,8 +178,8 @@ const AboutSection = ({
                                 </div>
 
                                 <div>
-                                    <QualificationRound></QualificationRound>
-                                    <QualificationLine></QualificationLine>
+                                    <QualificationRound style={blueBg}></QualificationRound>
+                                    <QualificationLine style={blueBg}></QualificationLine>
                                 </div>
                             </QualificationData>
 
@@ -153,13 +189,13 @@ const AboutSection = ({
                                 <div></div>
 
                                 <div>
-                                    <QualificationRound></QualificationRound>
-                                    <QualificationLine></QualificationLine>
+                                    <QualificationRound style={pinkBg}></QualificationRound>
+                                    <QualificationLine style={pinkBg}></QualificationLine>
                                 </div>
 
                                 <div>
                                     <JourneyContent>
-                                        <JourneyTitle>Data Science</JourneyTitle>
+                                        <JourneyTitle style={pink}>Data Science</JourneyTitle>
                                         <JourneyCompany>Johnson & Johnson</JourneyCompany>
                                         <JourneyDate>
                                             <i></i>
@@ -174,7 +210,7 @@ const AboutSection = ({
                             <QualificationData>
                                 <div>
                                     <JourneyContentRight>
-                                        <JourneyTitle>Software Engineer</JourneyTitle>
+                                        <JourneyTitle style={green}>Software Engineer</JourneyTitle>
                                         <JourneyCompany>Conservation International</JourneyCompany>
                                         <JourneyDate>
                                             <i></i>
@@ -184,8 +220,8 @@ const AboutSection = ({
                                 </div>
 
                                 <div>
-                                    <QualificationRound></QualificationRound>
-                                    <QualificationLine></QualificationLine>
+                                    <QualificationRound style={greenBg}></QualificationRound>
+                                    <QualificationLine style={greenBg}></QualificationLine>
                                 </div>
                             
                             </QualificationData>
@@ -198,12 +234,12 @@ const AboutSection = ({
                                 <div></div>
 
                                 <div>
-                                    <QualificationRound></QualificationRound>
+                                    <QualificationRound style={orangeBg}></QualificationRound>
                                 </div>
 
                                 <div>
                                     <JourneyContent>
-                                        <JourneyTitle>Business Development</JourneyTitle>
+                                        <JourneyTitle style={orange}>Business Development</JourneyTitle>
                                         <JourneyCompany>Immersively</JourneyCompany>
                                         <JourneyDate>
                                             <i></i>
