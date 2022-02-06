@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/tiktok-portfolio-website/static/css/main.52177a69.css",
-    "main.js": "/tiktok-portfolio-website/static/js/main.259073dd.js",
-    "static/media/classifish-icon.png": "/tiktok-portfolio-website/static/media/classifish-icon.328fc74a9e84e1c156d1.png",
-    "static/media/projects-background.png": "/tiktok-portfolio-website/static/media/projects-background.7c8499535f17a18ddc05.png",
-    "static/media/Sofia-Pro-Bold.ttf": "/tiktok-portfolio-website/static/media/Sofia-Pro-Bold.72c1413b68e7bafe9528.ttf",
-    "static/media/myself.mp4": "/tiktok-portfolio-website/static/media/myself.ae08bb6bf50f0fd93cb9.mp4",
-    "static/media/website-logo.png": "/tiktok-portfolio-website/static/media/website-logo.fffed1b0d81bf6a008a2.png",
-    "static/media/about-background.png": "/tiktok-portfolio-website/static/media/about-background.f08d617b0250abbd9e5e.png",
-    "static/media/home-background.png": "/tiktok-portfolio-website/static/media/home-background.e71a82d684a9ab7460b4.png",
-    "static/media/prime-icon.png": "/tiktok-portfolio-website/static/media/prime-icon.426b74aa2296b7feaf07.png",
-    "static/media/work.png": "/tiktok-portfolio-website/static/media/work.a6c318d2979032ecd36c.png",
-    "static/media/study.png": "/tiktok-portfolio-website/static/media/study.d71a49d289076ab376d9.png",
-    "static/media/website-icon.png": "/tiktok-portfolio-website/static/media/website-icon.f9558c1aa5813acf2942.png",
-    "static/media/programmer.png": "/tiktok-portfolio-website/static/media/programmer.a50519ec7f4ef6e48a0f.png",
-    "index.html": "/tiktok-portfolio-website/index.html",
-    "main.52177a69.css.map": "/tiktok-portfolio-website/static/css/main.52177a69.css.map",
-    "main.259073dd.js.map": "/tiktok-portfolio-website/static/js/main.259073dd.js.map"
+    "main.css": "/portfolio-website/static/css/main.551247d0.css",
+    "main.js": "/portfolio-website/static/js/main.2569a64e.js",
+    "static/media/classifish-icon.png": "/portfolio-website/static/media/classifish-icon.328fc74a9e84e1c156d1.png",
+    "static/media/projects-background.png": "/portfolio-website/static/media/projects-background.7c8499535f17a18ddc05.png",
+    "static/media/Sofia-Pro-Bold.ttf": "/portfolio-website/static/media/Sofia-Pro-Bold.72c1413b68e7bafe9528.ttf",
+    "static/media/myself.mp4": "/portfolio-website/static/media/myself.ae08bb6bf50f0fd93cb9.mp4",
+    "static/media/website-logo.png": "/portfolio-website/static/media/website-logo.fffed1b0d81bf6a008a2.png",
+    "static/media/about-background.png": "/portfolio-website/static/media/about-background.f08d617b0250abbd9e5e.png",
+    "static/media/home-background.png": "/portfolio-website/static/media/home-background.e71a82d684a9ab7460b4.png",
+    "static/media/prime-icon.png": "/portfolio-website/static/media/prime-icon.426b74aa2296b7feaf07.png",
+    "static/media/work.png": "/portfolio-website/static/media/work.a6c318d2979032ecd36c.png",
+    "static/media/study.png": "/portfolio-website/static/media/study.d71a49d289076ab376d9.png",
+    "static/media/website-icon.png": "/portfolio-website/static/media/website-icon.f9558c1aa5813acf2942.png",
+    "static/media/programmer.png": "/portfolio-website/static/media/programmer.a50519ec7f4ef6e48a0f.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.551247d0.css.map": "/portfolio-website/static/css/main.551247d0.css.map",
+    "main.2569a64e.js.map": "/portfolio-website/static/js/main.2569a64e.js.map"
   },
   "entrypoints": [
-    "static/css/main.52177a69.css",
-    "static/js/main.259073dd.js"
+    "static/css/main.551247d0.css",
+    "static/js/main.2569a64e.js"
   ]
 }
